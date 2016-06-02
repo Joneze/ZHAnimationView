@@ -10,4 +10,7 @@
 
 @interface ZHAnimationView : UIView
 
+
+-(void)hiddenThisView;
+
 @end

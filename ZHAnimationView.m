@@ -65,4 +65,10 @@
     dot.transform = CATransform3DMakeScale(0.01, 0.01, 0.01); //解决旋转衔接效果
 }
 
+
+-(void)hiddenThisView
+{
+    [self removeFromSuperview];
+}
+
 @end
