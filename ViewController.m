@@ -24,9 +24,8 @@
     aView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:aView];
     
+   
 }
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
